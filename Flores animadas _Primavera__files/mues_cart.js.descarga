@@ -1,0 +1,4 @@
+ // Después de 50 segundos, mostramos el overlay
+ setTimeout(function () {
+    document.getElementById('overlay').classList.add('show');
+}, 8000); // 8 segundos en milisegundos
